@@ -13,6 +13,27 @@
   }
 }
 
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.MuiPaper-root {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.MuiTypography-h3 {
+  margin-bottom: 20px;
+}
+
+.container {
+  flex-grow: 1;
+  padding-top: 10px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,6 +44,20 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.MuiButton-root {
+  font-size: 0.8rem; /* Настройте это значение по необходимости */
+}
+.MuiToolbar-root {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.MuiButton-root {
+  margin: 5px; /* Настройте это значение по необходимости */
+}
+
 
 .App-link {
   color: #61dafb;
